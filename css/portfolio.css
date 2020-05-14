@@ -1,10 +1,15 @@
+:root {
+  --background-color: #2196f3;
+  --text-color: #ffffff;
+}
+
 .link {
   color: black;
   text-decoration: none;
 }
 .link:hover,
 .link:focus {
-  color: #2196f3;
+  color: var(--background-color);
 }
 .link:active {
   color: blueviolet;
@@ -23,10 +28,10 @@
   font-weight: 700;
 }
 .logo-one {
-  color: #2196f3;
+  color: var(--background-color);
 }
 .logo-two {
-  color: #ffffff;
+  color: var(--text-color);
 }
 .title {
   color: black;
@@ -38,11 +43,15 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  border-radius: 4px;
+  min-width: 29px;
+  text-align: center;
+  padding: 6px 22px;
 }
 button:hover,
 button:focus {
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--text-color);
+  background: var(--background-color);
 }
 
 .example {
@@ -51,7 +60,7 @@ button:focus {
   line-height: 1.88;
 }
 .window {
-  color: #ffffff;
+  color: var(--text-color);
   background: rgba(33, 150, 243, 0.9);
   font-size: 18px;
   line-height: 1.56;
