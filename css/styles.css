@@ -1,0 +1,93 @@
+:root {
+  --background-color: #2196f3;
+  --text-color: #ffffff;
+}
+/* стили шапки */
+
+.link {
+  color: #000000;
+  text-decoration: none;
+}
+.link:active {
+  color: blueviolet;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  font-weight: 700;
+}
+.logo-footer {
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  line-height: 1.18;
+  font-weight: 700;
+}
+.logo-one {
+  color: var(--background-color);
+}
+.logo-two {
+  color: var(--text-color);
+}
+
+/* Стили героя */
+.hero-title {
+  color: var(--text-color);
+  background: var(--background-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+}
+.link-hero {
+  background: var(--background-color);
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 700;
+}
+/* cтили секций */
+.three {
+  color: var(--text-color);
+  background: rgba(47, 48, 58, 0.8);
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+}
+.list a {
+  color: #afb1b8;
+  text-decoration: none;
+}
+.list a:hover,
+.list a:focus {
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.title-three {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.paragraf {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.prof {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
