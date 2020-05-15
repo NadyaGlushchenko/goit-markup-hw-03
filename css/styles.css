@@ -6,10 +6,9 @@
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid red;
 }
 
 /* стили шапки */
@@ -94,6 +93,15 @@
   margin-bottom: 0px;
   padding: 27px;
 }
+
+.prioritiets {
+  display: flex;
+}
+
+.prioritiets .item + .item {
+  margin-left: 30px;
+}
+
 .list a {
   color: #afb1b8;
   text-decoration: none;
@@ -102,6 +110,10 @@
 .list a:focus {
   color: var(--text-color);
   background-color: var(--background-color);
+}
+
+.list {
+  margin-top: 16px;
 }
 
 .section-title {
