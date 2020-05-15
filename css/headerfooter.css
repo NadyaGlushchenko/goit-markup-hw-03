@@ -35,9 +35,43 @@ button {
   font-weight: 500;
 }
 
+.nav-container {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+}
+.nav-list .item {
+  margin-right: 50px;
+}
+
+.nav-list .item:last-child {
+  margin-right: 0px;
+}
+
+.nav-contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-contacts .item {
+  display: flex;
+
+  margin-right: 30px;
+}
+
+.nav-contacts .item:last-child {
+  margin-right: 0px;
+}
+
 .nav-link {
   text-decoration: none;
   color: #212121;
+
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -63,6 +97,8 @@ button {
   display: block;
   min-width: 142px;
   height: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .adress {

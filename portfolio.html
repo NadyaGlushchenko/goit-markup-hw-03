@@ -18,36 +18,42 @@
   <body>
     <!-- Шапка сайта -->
     <header class="site-header container">
-      <nav class="site-nav">
-        <a href="./index.html" class="logo link">
-          <span class="logo-one">Web</span>Studio</a
-        >
-        <ul>
-          <li><a href="./index.html" class="nav-link">Студия</a></li>
-          <li>
-            <a href="./portfolio.html" target="_blank" class="nav-link"
-              >Портфолио</a
-            >
-          </li>
-          <li><a href="" target="_blank" class="nav-link">Контакты</a></li>
+      <div class="nav-container">
+        <nav class="site-nav nav-container">
+          <a href="./index.html" class="logo link">
+            <span class="logo-one">Web</span>Studio</a
+          >
+          <ul class="nav-list">
+            <li class="item">
+              <a href="./index.html" class="nav-link">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" target="_blank" class="nav-link"
+                >Портфолио</a
+              >
+            </li>
+            <li class="item">
+              <a href="" target="_blank" class="nav-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contacts nav-contacts">
+          <li class="item"><a href="" class="link">info@devstudio.com</a></li>
+          <li class="item"><a href="" class="link">+38 096 111 11 11</a></li>
         </ul>
-      </nav>
-      <ul class="contacts">
-        <li><a href="" class="link">info@devstudio.com</a></li>
-        <li><a href="" class="link">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
     <!-- уникальный контент -->
     <main>
       <section class="section">
         <div class="container">
           <h1 class="title">Примеры работ</h1>
-          <ul>
-            <li><button>Все</button></li>
-            <li><button>Веб-сайты</button></li>
-            <li><button>Приложения</button></li>
-            <li><button>Дизайн</button></li>
-            <li><button>Маркетинг</button></li>
+          <ul class="button-item">
+            <li class="item"><button>Все</button></li>
+            <li class="item"><button>Веб-сайты</button></li>
+            <li class="item"><button>Приложения</button></li>
+            <li class="item"><button>Дизайн</button></li>
+            <li class="item"><button>Маркетинг</button></li>
           </ul>
         </div>
       </section>

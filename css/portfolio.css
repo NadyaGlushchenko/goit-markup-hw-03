@@ -6,7 +6,7 @@
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   outline: 2px solid red;
@@ -29,6 +29,11 @@
   font-size: 26px;
   line-height: 1.19;
   font-weight: 700;
+
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 86px;
 }
 .logo-footer {
   font-family: Raleway, sans-serif;
@@ -69,6 +74,14 @@ button:hover,
 button:focus {
   color: var(--text-color);
   background: var(--background-color);
+}
+
+.button-item {
+  display: flex;
+}
+
+.button-item .item + .item {
+  margin-left: 8px;
 }
 
 .example {
