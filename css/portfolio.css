@@ -9,7 +9,6 @@
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid red;
 }
 
 .link {
@@ -69,6 +68,8 @@ button {
   text-align: center;
   padding: 6px 22px;
   border: 0px;
+  margin-top: 93px;
+  margin-bottom: 50px;
 }
 button:hover,
 button:focus {
@@ -78,10 +79,25 @@ button:focus {
 
 .button-item {
   display: flex;
+  justify-content: center;
 }
 
 .button-item .item + .item {
   margin-left: 8px;
+}
+
+.section-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-item .item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.section-item .item:nth-child(3n) {
+  margin-right: 0px;
 }
 
 .example {
@@ -101,6 +117,7 @@ button:focus {
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 63px 24px;
+  width: 380px;
 }
 .section-title {
   font-size: 18px;
