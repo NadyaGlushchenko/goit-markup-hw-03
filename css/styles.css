@@ -102,6 +102,10 @@
   margin-left: 30px;
 }
 
+.name-text {
+  text-align: center;
+}
+
 .list a {
   color: #afb1b8;
   text-decoration: none;
@@ -114,6 +118,7 @@
 
 .list {
   margin-top: 16px;
+  text-align: center;
 }
 
 .section-title {
@@ -121,7 +126,7 @@
   line-height: 1.17;
   text-align: center;
 
-  margin-top: 94px;
+  padding-top: 94px;
   margin-bottom: 0px;
   padding-bottom: 50px;
 }
@@ -153,6 +158,7 @@
 
   margin-top: 30px;
   margin-bottom: 0px;
+  text-align: center;
 }
 .prof {
   font-weight: 400;
@@ -161,4 +167,5 @@
 
   margin-top: 10px;
   margin-bottom: 0px;
+  text-align: center;
 }

@@ -168,6 +168,18 @@ button {
   justify-content: space-between;
 }
 
+.item-adress {
+  width: 231px;
+}
+
+.item-network {
+  width: 207px;
+}
+
+.item-input {
+  width: 570px;
+}
+
 .input {
   width: 270px;
   height: 50px;
