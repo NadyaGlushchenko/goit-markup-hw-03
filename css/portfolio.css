@@ -107,9 +107,12 @@ button:focus {
 
   margin-top: 4px;
   margin-bottom: 0px;
-  margin-left: 24px;
-  margin-right: 24px;
 }
+
+.size {
+  margin: 20px 24px;
+}
+
 .window {
   color: var(--text-color);
   background: rgba(33, 150, 243, 0.9);
@@ -128,6 +131,4 @@ button:focus {
 
   margin-top: 20px;
   margin-bottom: 0px;
-  margin-left: 24px;
-  margin-right: 24px;
 }
